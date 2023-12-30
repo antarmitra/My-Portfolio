@@ -1,0 +1,18 @@
+#project-section{
+    margin: 190px 0;
+    overflow-x: hidden;
+    background-image: url(../../assets/image/download.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 500px;
+}
+
+#project-section .uppar-layer{
+    height: 500px;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    align-items: center;
+    color: white;
+}
