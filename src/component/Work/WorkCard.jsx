@@ -1,6 +1,7 @@
 import style from "styled-components";
 import { data } from "../data/data";
 import { RxExternalLink } from "react-icons/rx";
+import { FaGithub } from "react-icons/fa";
 
 const WorkCard = () => {
   const reversedData = [...data].reverse();
@@ -14,11 +15,12 @@ const WorkCard = () => {
           className="flex flex-col justify-center items-center gap-4"
         >
           <POPUP className="img-content relative">
-            <div className="h-[280px] w-[380px] hover:scale-125 transition duration-500 cursor-pointer shadow-xl rounded-md overflow-hidden sm:h-[260px] sm:w-[92%] sm:bg-cover mx-auto">
+            <div className="w-full max-w-[500px] hover:scale-125 transition duration-500 cursor-pointer shadow-xl rounded-md overflow-hidden mx-auto sm:max-w-[92%] md:max-w-[600px] lg:max-w-[700px] xl:max-w-[800px]">
               <img
                 src={item.img}
                 alt={item.title}
                 className="object-cover w-full h-full transition duration-500"
+                style={{ height: "auto", aspectRatio: "16/9" }}
               />
             </div>
 
@@ -26,7 +28,7 @@ const WorkCard = () => {
               <p className="text-gray-900 text-base leading-[1.4] text-justify w-[90%]">
                 {item.desc}
               </p>
-              <div className="flex items-center justify-center gap-4">
+              <div className="md:flex items-center justify-center gap-2">
                 <a
                   href={item.link}
                   target="_blank"
@@ -38,13 +40,23 @@ const WorkCard = () => {
                 </a>
                 <br className="w-[2px] bg-white" />
                 <a
-                  href={item.git}
+                  href={item.client}
                   target="_blank"
                   rel="noopener noreferrer"
                   className="mt-3 rounded-md shadow-md p-1 px-2 flex gap-2 items-center justify-center font-medium"
                 >
-                  <RxExternalLink className="text-black bg-white rounded-full border w-[35px] h-[35px] p-2" />
-                  <p className="text-black">code</p>
+                  <FaGithub className="text-black bg-white rounded-full border w-[35px] h-[35px] p-2" />
+                  <p className="text-black">Client</p>
+                </a>
+                <br className="w-[2px] bg-white" />
+                <a
+                  href={item.server}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="mt-3 rounded-md shadow-md p-1 px-2 flex gap-2 items-center justify-center font-medium"
+                >
+                  <FaGithub className="text-black bg-white rounded-full border w-[35px] h-[35px] p-2" />
+                  <p className="text-black">Server</p>
                 </a>
               </div>
             </div>

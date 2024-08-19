@@ -5,14 +5,16 @@ export const data = [
     title: "Real Estate",
     desc: "",
     link: "https://real-estate-f628c.web.app/",
-    git: "https://github.com/antarmitra/Real-estate-client-site",
+    client: "https://github.com/antarmitra/Real-estate-client-site",
+    server: "https://github.com/antarmitra/Real-estate-server-site",
   },
   {
     id: 2,
     img: "https://i.ibb.co/KKkpMKg/s2.png",
     title: "Event Management",
     link: "https://wedding-event-management-67e25.web.app/",
-    git: "https://github.com/antarmitra/Wedding-event-management",
+    client: "https://github.com/antarmitra/Wedding-event-management",
+    server: "https://github.com/antarmitra/Wedding-event-management",
   },
   {
     id: 3,
@@ -20,6 +22,7 @@ export const data = [
     title: "TaskTrak (TO-DO List)",
     desc: "",
     link: "https://task-management-49e12.web.app/",
-    git: "https://github.com/antarmitra/Task-Management-Client-Site",
+    client: "https://github.com/antarmitra/Task-Management-Client-Site",
+    server: "https://github.com/antarmitra/Task-Management-Server-Site",
   },
 ];

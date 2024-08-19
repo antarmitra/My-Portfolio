@@ -1,9 +1,9 @@
 import logo from "../../assets/logo.png";
-import moon from "../../assets/moon.png";
 import right from "../../assets/right.png";
 import menu from "../../assets/menu.png";
 import close from "../../assets/close.png";
 import { useState, useEffect } from "react";
+import { Link } from "react-router-dom";
 
 const Navbar = () => {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -45,19 +45,19 @@ const Navbar = () => {
 
         <ul className="hidden md:flex items-center gap-6 lg:gap-8 rounded-full px-12 py-3 bg-white shadow-md bg-opacity-50 text-lg font-semibold">
           <li>
-            <a href="#">Home</a>
+            <a href="#home">Home</a>
           </li>
           <li>
-            <a href="#">About</a>
+            <a href="#about">About</a>
           </li>
           <li>
-            <a href="#">Skill</a>
+            <a href="#skill">Skill</a>
           </li>
           <li>
-            <a href="#">My Work</a>
+            <a href="#work">My Work</a>
           </li>
           <li>
-            <a href="#">Education</a>
+            <a href="#education">Education</a>
           </li>
         </ul>
 
@@ -69,7 +69,7 @@ const Navbar = () => {
 
           <a
             className="hidden lg:flex items-center gap-3 px-10 py-2.5 border border-gray-500 rounded-full ml-4 text-lg font-semibold"
-            href="#"
+            href="#contact"
           >
             Contact
             <img className="w-3" src={right} alt="Right Arrow" />
@@ -90,7 +90,7 @@ const Navbar = () => {
             <img src={close} alt="Close" className="w-5" onClick={closeMenu} />
           </div>
           <li>
-            <a href="#" onClick={closeMenu}>
+            <a href="#home" onClick={closeMenu}>
               Home
             </a>
           </li>
@@ -100,17 +100,22 @@ const Navbar = () => {
             </a>
           </li>
           <li>
-            <a href="#" onClick={closeMenu}>
+            <a href="#education" onClick={closeMenu}>
               Education
             </a>
           </li>
           <li>
-            <a href="#" onClick={closeMenu}>
+            <a href="#skill" onClick={closeMenu}>
               Work
             </a>
           </li>
           <li>
-            <a href="#" onClick={closeMenu}>
+            <a href="#work" onClick={closeMenu}>
+              Work
+            </a>
+          </li>
+          <li>
+            <a href="#contact" onClick={closeMenu}>
               Contact
             </a>
           </li>
