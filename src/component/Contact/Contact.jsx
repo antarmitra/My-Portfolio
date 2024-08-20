@@ -1,7 +1,7 @@
 import { BsSendFill } from "react-icons/bs";
-// import location from "../../assets/location.png";
-// import email from "../../assets/email.png";
-// import call from "../../assets/call.png";
+import location from "../../assets/location.png";
+import email from "../../assets/email.png";
+import call from "../../assets/call.png";
 
 const ContactSection = () => {
   return (
@@ -24,29 +24,22 @@ const ContactSection = () => {
             <p className="mt-4 text-xl">
               Beautiful design for your <br /> website? Leave a request
             </p>
-          </div>
 
-          {/* <div className="lg:w-1/2 text-center lg:text-left mb-8 lg:mb-0">
-          <h2 className="text-5xl font-semibold text-yellow-400">You Need</h2>
-          <p className="mt-4 text-xl">
-            Beautiful design for your <br /> website? Leave a request
-          </p>
-
-          <div className="mt-4">
-            <div className="flex items-center mt-2">
-              <img src={location} alt="Location" className="w-10 h-10 mr-2" />
-              <span className="text-lg">Mirpur-11,avenue-5, Dhaka </span>
-            </div>
-            <div className="flex items-center mt-2">
-              <img src={email} alt="Email" className="w-10 h-10 mr-2" />
-              <span className="text-lg">antarmitra33@gmail.com</span>
-            </div>
-            <div className="flex items-center mt-2">
-              <img src={call} alt="Phone" className="w-10 h-10 mr-2" />
-              <span className="text-lg">+8801882101146</span>
+            <div className="mt-4">
+              <div className="flex items-center mt-2">
+                <img src={location} alt="Location" className="w-10 h-10 mr-2" />
+                <span className="text-lg">Mirpur-11,avenue-5, Dhaka </span>
+              </div>
+              <div className="flex items-center mt-2">
+                <img src={email} alt="Email" className="w-10 h-10 mr-2" />
+                <span className="text-lg">antarmitra33@gmail.com</span>
+              </div>
+              <div className="flex items-center mt-2">
+                <img src={call} alt="Phone" className="w-10 h-10 mr-2" />
+                <span className="text-lg">+8801882101146</span>
+              </div>
             </div>
           </div>
-        </div> */}
 
           <div className="right w-full lg:w-1/2">
             <form

@@ -1,14 +1,12 @@
 import photo from "../../assets/male.png";
 import code from "../../assets/code.png";
 import vs from "../../assets/vs.png";
-import firebase from "../../assets/firebase.png";
 import figma from "../../assets/figma.png";
 import git from "../../assets/git.png";
-// import crome from "../../assets/crome.png";
-// import vite from "../../assets/vite.png";
-// import edge from "../../assets/edge.png";
-import education from "../../assets/edu.png";
-import project from "../../assets/project.png";
+import crome from "../../assets/crome.png";
+import edge from "../../assets/edge.png";
+import laptop from "../../assets/laptop.png";
+import search from "../../assets/search.png";
 
 const About = () => {
   return (
@@ -40,26 +38,29 @@ const About = () => {
               contributing to theri success and growth.
             </p>
 
+            <h4 className="my-6 text-gray-400">I am always focus on</h4>
             <ul className="grid grid-cols-1 sm:grid-cols-3 gap-6 max-w-2xl">
               <li className="border-[0.5px] border-gray-400 rounded-xl p-6 cursor-pointer hover:bg-[#fcf4ff] hover:-translate-y-1 duration-500 hover:shadow-[4px_4px_0_#000]">
                 <img src={code} alt="" className="w-7 mt-3" />
-                <h3 className="my-4 font-extrabold text-gray-700">Language</h3>
+                <h3 className="my-4 font-extrabold text-gray-700">Crafting</h3>
                 <p className="text-gray-600 text-sm">
-                  HTML, CSS, TailwindCSS, Javascript, ReactJs
+                  Crafting pixel-perfect user interfaces that narrate compelling
+                  stories.
                 </p>
               </li>
               <li className="border-[0.5px] border-gray-400 rounded-xl p-6 cursor-pointer hover:bg-[#fcf4ff] hover:-translate-y-1 duration-500 hover:shadow-[4px_4px_0_#000]">
-                <img src={education} alt="" className="w-7 mt-3" />
-                <h3 className="my-4 font-extrabold text-gray-700">Education</h3>
+                <img src={laptop} alt="" className="w-7 mt-3" />
+                <h3 className="my-4 font-extrabold text-gray-700">Challenge</h3>
                 <p className="text-gray-600 text-sm">
-                  Diploma in Engineering in Computer Science and Technology
+                  Code alchemist with a gift for transforming intricate problems
+                  into elegant solutions.
                 </p>
               </li>
               <li className="border-[0.5px] border-gray-400 rounded-xl p-6 cursor-pointer hover:bg-[#fcf4ff] hover:-translate-y-1 duration-500 hover:shadow-[4px_4px_0_#000]">
-                <img src={project} alt="" className="w-7 mt-3" />
-                <h3 className="my-4 font-extrabold text-gray-700">Project</h3>
+                <img src={search} alt="" className="w-7 mt-3" />
+                <h3 className="my-4 font-extrabold text-gray-700">Exploring</h3>
                 <p className="text-gray-600 text-sm">
-                  HTML, CSS, TailwindCSS, Javascript, ReactJs
+                  Explorer of the ever-evolving landscape of web technologies.
                 </p>
               </li>
             </ul>
@@ -70,13 +71,16 @@ const About = () => {
                 <img src={vs} alt="" className="w-5 sm:w-7" />
               </li>
               <li className="flex items-center justify-center w-12 sm:w-14 aspect-square border border-gray-400 rounded-lg cursor-pointer hover:-translate-y-1 duration-500">
-                <img src={firebase} alt="" className="w-5 sm:w-7" />
-              </li>
-              <li className="flex items-center justify-center w-12 sm:w-14 aspect-square border border-gray-400 rounded-lg cursor-pointer hover:-translate-y-1 duration-500">
                 <img src={figma} alt="" className="w-5 sm:w-7" />
               </li>
               <li className="flex items-center justify-center w-12 sm:w-14 aspect-square border border-gray-400 rounded-lg cursor-pointer hover:-translate-y-1 duration-500">
                 <img src={git} alt="" className="w-5 sm:w-7" />
+              </li>
+              <li className="flex items-center justify-center w-12 sm:w-14 aspect-square border border-gray-400 rounded-lg cursor-pointer hover:-translate-y-1 duration-500">
+                <img src={crome} alt="" className="w-5 sm:w-7" />
+              </li>
+              <li className="flex items-center justify-center w-12 sm:w-14 aspect-square border border-gray-400 rounded-lg cursor-pointer hover:-translate-y-1 duration-500">
+                <img src={edge} alt="" className="w-5 sm:w-7" />
               </li>
             </ul>
           </div>
