@@ -1,6 +1,6 @@
-const Resume = () => {
+const Education = () => {
   return (
-    <section id="education">
+    <section id="education" className="px-[8%]">
       <div id="resume" className=" container m-auto mt-16">
         {/* heading */}
         <div
@@ -14,62 +14,52 @@ const Resume = () => {
         </div>
 
         {/* card*/}
-        <div className="card-wrapper w-[90%] sm:w-full mt-5 grid grid-cols-1 md:grid-cols-2 sm:gap-5 mx-auto ">
+        <div className="card-wrapper w-[90%] sm:w-full mt-5 grid grid-cols-1 md:grid-cols-2 gap-6 sm:gap-5 mx-auto ">
           <div className="left flex-1 flex items-center justify-center">
-            <fieldset
-              data-aos="zoom-in"
-              className=" w-[80%] p-5 py-12 sm:py-8 sm:w-full sm:p-2"
-            >
-              <div>
-                <div className=" flex flex-col gap-1 sm:gap-1 border-2 border-yellow-400 shadow-[0px_0px_16px_1px_rgba(0,0,0,0.1)] p-3 rounded-lg">
-                  <h1 className="text-[1.4rem] font-semibold sm:text-xl">
-                    Department of Science
-                  </h1>
-                  <span className=" text-[.9rem] font-semibold text-gray-500 sm:text-base">
-                    Sadar Narottompur High School
-                  </span>
-                  <span className=" text-[.9rem] font-semibold text-yellow-500 sm:text-base">
-                    January,2015 - February, 2020
-                  </span>
-                  <p className=" text-[.9rem] text-justify break-words text-gray-500">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Excepturi nihil aut quae obcaecati alias placeat totam
-                    aperiam pariatur quam? Accusantium minima aperiam error
-                    obcaecati autem doloribus deserunt qui, laborum incidunt
-                    amet, numquam eos cum tempora. Debitis, esse quae corporis
-                    deserunt officia quos in a, quaerat vero odio vitae.
-                  </p>
-                </div>
+            <div>
+              <div className=" flex flex-col gap-1 sm:gap-1 border-2 border-yellow-400 shadow-[0px_0px_16px_1px_rgba(0,0,0,0.1)] p-3 rounded-lg">
+                <h1 className="text-[1.4rem] font-semibold sm:text-xl">
+                  Department of Science
+                </h1>
+                <span className=" text-[.9rem] font-semibold text-gray-500 sm:text-base">
+                  Sadar Narottompur High School
+                </span>
+                <span className=" text-[.9rem] font-semibold text-yellow-500 sm:text-base">
+                  January,2015 - February, 2020
+                </span>
+                <p className=" text-[.9rem] text-justify break-words text-gray-500">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Excepturi nihil aut quae obcaecati alias placeat totam aperiam
+                  pariatur quam? Accusantium minima aperiam error obcaecati
+                  autem doloribus deserunt qui, laborum incidunt amet, numquam
+                  eos cum tempora. Debitis, esse quae corporis deserunt officia
+                  quos in a, quaerat vero odio vitae.
+                </p>
               </div>
-            </fieldset>
+            </div>
           </div>
           <div className="right flex-1 flex items-center justify-center">
-            <fieldset
-              data-aos="zoom-in"
-              className=" w-[80%] p-5 py-12 sm:py-8 sm:w-full sm:p-2"
-            >
-              <div>
-                <div className=" flex flex-col gap-1 border-2 border-yellow-400 shadow-[0px_0px_16px_1px_rgba(0,0,0,0.1)] p-3 rounded-lg">
-                  <h1 className="text-[1.4rem] font-semibold sm:text-xl">
-                    Computer Science and Tachnology
-                  </h1>
-                  <span className=" text-[.9rem] font-semibold text-gray-500 sm:text-base">
-                    Lakshmipur Polytechnic Institute
-                  </span>
-                  <span className=" text-[.9rem] font-semibold text-yellow-500 sm:text-base">
-                    September,2021 - October,2024
-                  </span>
-                  <p className=" text-[.9rem] text-justify text-gray-500">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Excepturi nihil aut quae obcaecati alias placeat totam
-                    aperiam pariatur quam? Accusantium minima aperiam error
-                    obcaecati autem doloribus deserunt qui, laborum incidunt
-                    amet, numquam eos cum tempora. Debitis, esse quae corporis
-                    deserunt officia quos in a, quaerat vero odio vitae.
-                  </p>
-                </div>
+            <div>
+              <div className=" flex flex-col gap-1 border-2 border-yellow-400 shadow-[0px_0px_16px_1px_rgba(0,0,0,0.1)] p-3 rounded-lg">
+                <h1 className="text-[1.4rem] font-semibold sm:text-xl">
+                  Computer Science and Tachnology
+                </h1>
+                <span className=" text-[.9rem] font-semibold text-gray-500 sm:text-base">
+                  Lakshmipur Polytechnic Institute
+                </span>
+                <span className=" text-[.9rem] font-semibold text-yellow-500 sm:text-base">
+                  September,2021 - October,2024
+                </span>
+                <p className=" text-[.9rem] text-justify text-gray-500">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Excepturi nihil aut quae obcaecati alias placeat totam aperiam
+                  pariatur quam? Accusantium minima aperiam error obcaecati
+                  autem doloribus deserunt qui, laborum incidunt amet, numquam
+                  eos cum tempora. Debitis, esse quae corporis deserunt officia
+                  quos in a, quaerat vero odio vitae.
+                </p>
               </div>
-            </fieldset>
+            </div>
           </div>
         </div>
       </div>
@@ -77,4 +67,4 @@ const Resume = () => {
   );
 };
 
-export default Resume;
+export default Education;

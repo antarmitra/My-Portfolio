@@ -27,7 +27,7 @@ const WorkCard = () => {
               <p className="text-gray-900 text-base leading-[1.4] text-justify w-[90%]">
                 {item.desc}
               </p>
-              <div className="md:flex flex-col items-center justify-center gap-2">
+              <div className="md:flex flex-col items-center justify-center">
                 <a
                   href={item.link}
                   target="_blank"

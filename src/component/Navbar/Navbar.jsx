@@ -3,7 +3,6 @@ import right from "../../assets/right.png";
 import menu from "../../assets/menu.png";
 import close from "../../assets/close.png";
 import { useState, useEffect } from "react";
-import { Link } from "react-router-dom";
 
 const Navbar = () => {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -106,7 +105,7 @@ const Navbar = () => {
           </li>
           <li>
             <a href="#skill" onClick={closeMenu}>
-              Work
+              Skill
             </a>
           </li>
           <li>
